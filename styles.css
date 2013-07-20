@@ -1,0 +1,92 @@
+a {
+    color: #3b8bba;
+}
+
+p {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.container {
+    margin: 7em 0 3em 0;
+}
+
+.nav {
+    list-style-type: none;
+    overflow: auto;
+}
+
+.nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav li {
+    float: left;
+    display: block;
+    width: 25%;
+}
+
+.author-info {
+    font-size: 0.9em;
+    float: right;
+    padding: 0 2em 0 0;
+    text-align: right;
+    width: 165px;
+}
+
+.author-bio {
+    color: #666665;
+    font-style: italic;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    line-height: 1.4em;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.author-name {
+    font-size: 2em;
+    margin: 0.4em 0;
+}
+
+.author-image {
+    -webkit-border-radius: 95px;
+    -moz-border-radius: 95px;
+    border-radius: 95px;
+    height: 70px;
+    width: 70px;
+}
+
+.post-list {
+    max-width: 40em;
+    padding: 0 2em;
+}
+
+.post {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.post-title {
+    margin: 0 0 0.5em 0;
+}
+
+.post-title .icon-external-link {
+    font-size: 0.8em;
+    font-weight: normal;
+    color: #999;
+    vertical-align: middle;
+}
+
+.post-excerpt {
+    color: #333;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+.post-date {
+    color: #999;
+    font-size: 0.7em;
+    text-align: right;
+}
