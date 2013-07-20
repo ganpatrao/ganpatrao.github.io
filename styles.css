@@ -11,13 +11,20 @@ p {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
+blockquote {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
 .container {
     margin: 7em 0 3em 0;
 }
 
 .nav {
     list-style-type: none;
-    overflow: auto;
+    overflow: hidden;
     padding: 0;
 }
 
@@ -43,7 +50,6 @@ p {
 }
 
 .author-name {
-    font-size: 2em;
     margin: 0.2em 0;
 }
 
@@ -88,13 +94,18 @@ p {
     padding-bottom: 1.5em;
 }
 
+.post p {
+    margin-bottom: 0;
+}
+
 .post-title {
-    margin: 0 0 0.5em 0;
+    margin-top: 0;
+    margin-bottom: 0.5em;
 }
 
 .post-title i {
-    font-size: 0.5em;
     color: #999;
+    font-size: 0.5em;
     vertical-align: middle;
 }
 
@@ -105,8 +116,22 @@ p {
     margin: 0;
 }
 
-.post-date {
-    color: #999;
-    font-size: 0.7em;
+.post .source {
+    font-style: italic;
     text-align: right;
+}
+
+.post .source:before {
+    content: "-";
+}
+
+.post img {
+    border: 3px solid #000;
+    width: 99%;
+}
+
+.post .caption {
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
 }
