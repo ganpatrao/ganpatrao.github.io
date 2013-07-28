@@ -16,10 +16,9 @@ i {
 }
 
 blockquote {
-    font-size: 2em;
-    line-height: 1em;
-    margin-top: 0;
-    margin-bottom: 0.5em;
+    border-left: 1px solid #eee;
+    font-style: italic;
+    padding-left: 1em;
 }
 
 .container {
@@ -96,7 +95,15 @@ blockquote {
 .post {
     border-bottom: 1px solid #eee;
     margin-bottom: 1.5em;
-    padding-bottom: 0.5em;
+    padding-bottom: 1em;
+}
+
+.feature-image {
+    margin-bottom: 1em;
+}
+
+.feature-image img {
+    width: 100%;
 }
 
 .post-title {
@@ -141,13 +148,17 @@ blockquote {
 }
 
 .post-content img {
-    border: 3px solid #000;
-    width: 99%;
+    border: 2px solid #333;
+    width: 80%;
+    margin-top: 1em;
+    margin-left: 10%;
 }
 
 .post-content .caption {
-    font-size: 1em;
+    font-size: 0.9em;
+    font-style: italic;
     text-align: center;
+    margin-top: 0;
 }
 
 .tags h1 {
