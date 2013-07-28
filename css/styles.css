@@ -45,6 +45,10 @@ blockquote {
     margin: 0.2em 0;
 }
 
+.author-name a {
+    text-decoration: none;
+}
+
 .nav a {
     padding-left: 1em;
     text-decoration: none;

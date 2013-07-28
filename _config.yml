@@ -1,0 +1,17 @@
+name: Your New Jekyll Site
+
+# Author info
+author_name: Emaad Ahmed Manzoor
+author_image_path: /images/author-image.jpeg
+author_bio: |
+    Masters student at KAUST.
+    Formerly engineer at Yahoo!, intern at Tachyon Technologies,
+    undergrad at BITS-Pilani Goa Campus.    
+github_url: "https://github.com/emaadmanzoor"
+twitter_url: "https://twitter.com/emaadmanzoor"
+linkedin_url: "https://linkedin.com/in/emaadmanzoor"
+feed_url: "http://feeds.feedburner.com/eyeshalfclosed"
+
+# Site settings
+permalink: pretty
+pygments: true
