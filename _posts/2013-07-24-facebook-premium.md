@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Facebook Premium"
-tags: startup going-with-it 
+title: "Facebook Premium"
+tags: startup going-with-it
 ---
 
 Everybody thinks because I'm one of the Twitter guys that I must be good at using all social media. The truth is, if I can't figure an app out in a minute, I usually move on to something else. Too many settings and options frustrate and confuse me. I like making simple stuff because I enjoy simple stuff.
@@ -17,3 +17,4 @@ People love Facebook. They really love it. My mother-in-law looks hypnotized whe
 Anywhoo, now that Iâ€™m using it and thinking about it, Iâ€™ve got an idea for Facebook. They could offer Facebook Premium. For $10 a month, people who really love Facebook (and can afford it), could see no ads. Maybe some special features too. If 10% percent of Facebook signed up, thatâ€™s $1B a month in revenue. Not too shabby.
 
 Itâ€™s a different type of company, but by way of validation, have a look at Pandoraâ€™s 1Q14 financial results. Of all Pandoraâ€™s revenue generators, the highest growth year-over-year by far (114% growth rate) is in subscriptionsâ€”people paying a monthly fee for an ad-free experience. So there you have it. â€œFuck yeah.â€ Right?
+
