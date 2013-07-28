@@ -12,6 +12,12 @@ twitter_url: "https://twitter.com/emaadmanzoor"
 linkedin_url: "https://linkedin.com/in/emaadmanzoor"
 feed_url: "http://feeds.feedburner.com/eyeshalfclosed"
 
+# Markdown rendering
+markdown: kramdown
+kramdown:
+  smart_quotes: apos,apos,quot,quot
+
 # Site settings
 permalink: pretty
+relative_permalinks: false
 pygments: true

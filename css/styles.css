@@ -108,7 +108,7 @@ blockquote {
     text-decoration: none;
 }
 
-.post-title a:hover, .post-meta a:hover {
+.post-meta a:hover {
     text-decoration: underline;
 }
 
