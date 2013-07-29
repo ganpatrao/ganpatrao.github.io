@@ -10,8 +10,10 @@ pulling the plug, probably frying his motherboard or corrupting his hard drive i
 If you ever see yourself (or anyone else) in this pitiful situation, you need to be nice to your
 Linux box, stop treating it like a Windows one and key in this combination:
  
-`ALT - PRINTSCREEN - R - E - I - S - U - B`
- 
+{% highlight console %} 
+ALT - PRINTSCREEN - R - E - I - S - U - B
+{% endhighlight %}
+
 Note that **REISUB** is **BUSIER** in reverse!
- 
+
 Then sit back and watch your system gracefully log itself off and proceed to restart.
