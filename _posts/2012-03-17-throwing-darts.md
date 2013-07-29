@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Throwing Darts
+tags: python, distributed-systems
 ---
 
 *Estimating π on a beanstalkd cluster.*
