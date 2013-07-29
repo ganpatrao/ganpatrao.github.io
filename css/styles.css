@@ -153,6 +153,16 @@ p.feature-image img {
     padding-left: 1.5em;
 }
 
+code span {
+    white-space: nowrap;
+}
+
+pre {
+    white-space: pre;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
 p code, ul code {
     background: #eee;
     border: 1px solid #ccc;
