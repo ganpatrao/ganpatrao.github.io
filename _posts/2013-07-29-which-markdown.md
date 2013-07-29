@@ -20,20 +20,20 @@ I'm split between kramdown and Rdiscount. They're both actively maintained and w
 documented, Let's look at the interesting features they each provide:
 
    * kramdown:
-      1. Supports syntax highlighting via CodeRay.
-      2. Supports tables.
-      3. Supports custom attributes for block and span elements. 
-      4. Supports footnotes.
-      5. Supports ID's for headers, useful for TOC's linking to subheadings.
-      6. Automatic TOC generation.
-      7. Support block and span level embedded $$\LaTeX$$, rendered via MathJax.
+      1. Supports tables.
+      2. Supports custom attributes for block and span elements *(very useful)*. 
+      3. Supports footnotes.
+      4. Supports ID's for headers, useful for TOC's linking to subheadings.
+      5. Automatic TOC generation.
+      6. Support block and span level embedded $$\LaTeX$$, rendered via MathJax.
    * Rdiscount:
       1. Supports paragraph centering.
       2. Supports image sizes.
       3. Supports custom attributes for block and span elements.
       4. Supports tables.
 
-I'm going to give kramdown a try, primarily due to it's $$\LaTeX$$ awareness.
+I'm giving kramdown a try, and am really liking its sensible syntax errors, native support
+for embedded math and custom attributes. I think I'll stick with this for a while.
 
 [allprocessors]: https://www.ruby-toolbox.com/categories/markup_processors
 [redcarpet]: https://github.com/vmg/redcarpet

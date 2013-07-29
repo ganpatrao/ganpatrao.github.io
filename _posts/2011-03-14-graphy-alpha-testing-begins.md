@@ -2,9 +2,8 @@
 layout: post
 title: "Graphy: Alpha Testing Begins!"
 tags: graphy
+feature: /images/graphy-site.jpg
 ---
-
-![The Graphy Website](/images/graphy-site.jpg)
  
 Take [Graphy-alpha](http://emaadmanzoor.github.com/graphy/) for a little walk!
  

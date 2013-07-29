@@ -1,36 +1,35 @@
 --- 
 layout: post
 title: "Verilog On Linux: Defenestrating Modelsim"
-categories: 
-- Code
-- Software
-tags: 
-- linux
-- modelsim
-- verilog
-status: publish
-type: post
-published: true
-meta: 
-  _wpas_done_twitter: "1"
-  _wpas_done_fb: "1"
-  _wp_old_slug: verilog-on-linux-defenestrating-modelsim
+tags: verilog
 ---
-This tutorial's to the victims of the Modelsim user experience, forced to design hardware in chains and gracefully handle the precious rear end of the popular musty racehorse that's Mentor Graphics' stable-star. If you're on Linux, freedom's a nice option.
 
+> Defenestrate */diˈfɛnəˌstreɪt/* (verb) : to throw (a person or thing) out of a window.
+> The word originated from a couple of incidents in Prague, back in the 14th century, when
+> a bunch of guys stormed in and tossed seven town officials out the window (quite literally).
 
-<blockquote>Defenestrate<em> /diˈfɛn<img src="http://sp.dictionary.com/dictstatic/dictionary/graphics/luna/thinsp.png" alt="" border="0" />əˌstreɪt/</em> (verb) : to throw (a person or thing) out of a window. The word originated from a couple of incidents in Prague, back in the 14th century, when a bunch of guys stormed in and tossed seven town officials out the window (quite literally).</blockquote>
-
-
+This tutorial's to the victims of the Modelsim user experience, forced to design hardware in
+chains and gracefully handle the precious rear end of the popular musty racehorse that's
+Mentor Graphics' stable-star. If you're on Linux, freedom's a nice option.
 
 I'll walk you through the steps to start coding in Verilog on your Linux box:
 
-<!--more-->
-<ol>
-	<li>Install <a href="http://www.icarus.com/eda/verilog/" target="_blank">Icarus Verilog Simulator</a> and <a href="http://en.wikipedia.org/wiki/GTKWave" target="_blank">GTKWave</a></li>
-[sourcecode lang="bash" light="true"]sudo apt-get install verilog gtkwave[/sourcecode]
-	<li>Copy this sample code and save it as <strong>counter.v</strong>:</li>
-[sourcecode lang="javascript"]module counter(out, clk, reset);
+## Install the simulator and graphing tools
+
+We use the [Icarus Verilog Simulator](http://www.icarus.com/eda/verilog/)
+and [GTKWave](http://en.wikipedia.org/wiki/GTKWave).
+
+{% highlight console %}
+sudo apt-get install verilog gtkwave
+{% endhighlight %}
+
+## Code
+
+Save the following code out into two files: `counter.v` and `counter_tb.v`. 
+
+{% highlight verilog %}
+// counter.v
+module counter(out, clk, reset);
 
   parameter WIDTH = 8;
 
@@ -49,9 +48,10 @@ I'll walk you through the steps to start coding in Verilog on your Linux box:
     else
       deassign out;
 
-endmodule // counter[/sourcecode]
-	<li>Copy this sample code and save it as <strong>counter_tb.v</strong></li>
-[sourcecode lang="javascript"]module test;
+endmodule // counter
+
+// counter_tb.v
+module test;
 
  /* Make a reset that pulses once. */
  reg reset = 0;
@@ -76,12 +76,24 @@ endmodule // counter[/sourcecode]
  initial
  $monitor(&quot;At time %t, value = %h (%0d)&quot;,
  $time, value, value);
+
 endmodule // test
-[/sourcecode]
-	<li>Open a terminal in the same directory and compile the code with this command:</li>
-[sourcecode lang="bash" light="true"]iverilog -o dsn counter_tb.v counter.v[/sourcecode]
-	<li>Run the code with this command:</li>
-[sourcecode lang="bash" light="true"]vvp dsn[/sourcecode]
-	<li>Simulate the generated output with this:</li>
-[sourcecode lang="bash" light="true"]gtkwave test.vcd &amp;[/sourcecode]
-Expand <strong>test</strong> on the top-left panel and select <strong>c1</strong>, then drag the signals from the bottom-left (wire, reg) to the Signals panel to it's immediate right. This should get you out on the right side of the bed with Verilog on Linux. Your next steps lie <a href="http://iverilog.wikia.com" target="_blank">here</a>. All sample code and instructions are merely distilled from the extensive documentation at the wiki linked to above. Cheers!</ol>
+{% endhighlight %}
+
+## Compile and run the code
+
+Open a terminal in the same directory and compile the code with this command:
+
+{% highlight console %}
+iverilog -o dsn counter_tb.v counter.v
+{% endhighlight %}
+
+Run the code with this command: `vvp dsn`
+
+Simulate the generated output with this: `gtkwave test.vcd &`
+
+Expand `test` on the top-left panel and select `c1`, then drag the signals from the
+bottom-left (wire, reg) to the Signals panel to it's immediate right. This should get
+you out on the right side of the bed with Verilog on Linux. Your next steps lie
+[here](http://iverilog.wikia.com). All sample code and instructions are merely distilled
+from the extensive documentation at the wiki linked to above. 
