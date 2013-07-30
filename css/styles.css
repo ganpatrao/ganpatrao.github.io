@@ -182,15 +182,15 @@ p code, ul code {
 }
 
 .post-content img {
-    border: 2px solid #333;
-    margin-top: 1em;
+    display: block;
+    margin: 0 auto;
 }
 
 .post-content .caption {
-    font-size: 0.9em;
-    font-style: italic;
-    text-align: center;
-    margin-top: 0;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    margin: 0 auto 1em auto;
+    width: 80%;
 }
 
 .post-content .discuss {
