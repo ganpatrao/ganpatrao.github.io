@@ -193,6 +193,12 @@ p code, ul code {
     margin-top: 0;
 }
 
+.post-content .discuss {
+    font-style: italic;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+}
+
 .tags h1 {
     margin-top: 0;
 }
