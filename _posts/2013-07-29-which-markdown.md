@@ -2,6 +2,7 @@
 layout: post
 tags: markdown
 title: "Which Markdown?"
+date: 2013-07-29 14:00
 ---
 
 Which [markup processor][allprocessors] should I use? My needs for one happen to be simple: 
