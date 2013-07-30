@@ -3,6 +3,7 @@ layout: post
 published: true
 title: Blogging With Prose.io
 tags: blogging prose
+date: 2013-07-29 16:00
 ---
 
 And here's a post written in [prose.io](http://prose.io)! No longer will I need to clone and build my Jekyll site locally, and hope that the computer at hand has half-decent Vim syntax highlighting.
