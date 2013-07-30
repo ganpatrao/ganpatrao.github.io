@@ -1,8 +1,8 @@
 ---
 layout: post
 published: true
-title: Blogging With Prose.io
-tags: blogging prose
+title: Prose.io
+tags: blogging
 date: 2013-07-29 16:00
 ---
 
