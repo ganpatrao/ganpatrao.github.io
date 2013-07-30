@@ -1,6 +1,6 @@
 name: eyeshalfclosed
 description: Blog of Emaad Ahmed Manzoor
-url: "http://eyeshalfclosed.com/"
+url: "http://eyeshalfclosed.com"
 
 # Author info
 author_name: Emaad Ahmed Manzoor
@@ -24,22 +24,3 @@ kramdown:
 permalink: pretty
 relative_permalinks: false
 pygments: true
-
-# prose.io settings
-prose:
-  siteurl: "http://eyeshalfclosed.com"
-  media: "/images"
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          value: "New Title"
-      - name: "tags"
-        field:
-          element: "text"
-          value: "tags"
