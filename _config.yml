@@ -6,9 +6,10 @@ url: "http://eyeshalfclosed.com"
 author_name: Emaad Ahmed Manzoor
 author_image_path: /images/author-image.jpeg
 author_bio: |
-    Engineer at <a href=http://www.yahoo.com>Yahoo!</a>;
-    formerly, research intern at <a href=http://tachyon.in/>Tachyon Technologies</a>, 
-    undergrad at <a href=http://www.bits-pilani.ac.in/Goa/>BITS Pilani Goa</a>
+    Engineer at Yahoo!.
+    Formerly, research intern at <a href=http://tachyon.in/>Tachyon Technologies</a>, 
+    undergrad at <a href=http://www.bits-pilani.ac.in/Goa/>BITS Pilani Goa</a>.
+    More <a href=http://eyeshalfclosed.com/about/>about me</a>.
 
 # External services
 github_url: "https://github.com/emaadmanzoor"
