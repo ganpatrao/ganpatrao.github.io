@@ -8,7 +8,8 @@ author_image_path: /images/author-image.jpeg
 author_bio: |
     Engineer at Yahoo! · Interned
     at Tachyon Technologies · CS undergrad
-    from BITS Pilani Goa · More [about me](/about/)
+    from BITS Pilani Goa · More
+    "<a href=http://eyeshalfclosed.com/about/>about me</a>"
 github_url: "https://github.com/emaadmanzoor"
 twitter_url: "https://twitter.com/emaadmanzoor"
 linkedin_url: "https://linkedin.com/in/emaadmanzoor"
