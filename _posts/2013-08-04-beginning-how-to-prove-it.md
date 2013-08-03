@@ -37,7 +37,7 @@ $$
 
 *b. Find an integer $$ x $$ such that $$ 1 < x < 2^{32767} - 1 $$ and $$ x $$ divides $$ 2^{32767} - 1 $$.*
 
-This is equivalent to stating that $$ 2^{32767} - 1 = xy $$, where $$ 1 < y < 2^{32767} - 1 $$. Let $$ 2^{32767} - 1 = 2^n - 1 $$.
+This is equivalent to stating that $$ 2^{32767} - 1 = xy $$, where $$ 1 < y < 2^{32767} - 1 $$. Let $$ 2^{32767} - 1 = 2^n - 1 $$. Then,
 
 $$
 \begin{align*}
@@ -131,14 +131,14 @@ $$
 \begin{align*}
   n &= 5\\
   \\
-2^4 &\times (2^5 - 1)\\
+\implies 2^4 &\times (2^5 - 1)\\
     &= 16 \times 31\\
     &= 496\\
     &= 1 + 2 + 4 + 8 + 16 + 31 + 62 + 124 + 248\\
   \\
   n &= 7\\
   \\
-2^6 &\times (2^7 - 1) = 8128
+\implies 2^6 &\times (2^7 - 1) = 8128
 \end{align*}
 $$
 
