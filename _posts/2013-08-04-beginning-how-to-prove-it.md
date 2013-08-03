@@ -14,7 +14,7 @@ It looks like the only solutions and discussions on this book are over at [Himan
 
 Below are my notes while working through the introductory exercise:
 
-*1. See parts (a) and (b).*
+### Question 1
 
 This questions builds on conjecture 2,
 
@@ -58,7 +58,9 @@ $$
 \end{align*}
 $$
 
-*2. Make some conjecture about the values of $$ n $$ for which $$ 3^n - 1 $$ is prime or $$ 3^n - 2^n $$ is prime.*
+### Question 2
+
+*Make some conjecture about the values of $$ n $$ for which $$ 3^n - 1 $$ is prime or $$ 3^n - 2^n $$ is prime.*
 
 Let's make a table.
 
@@ -78,11 +80,12 @@ Conjectures:
    2. If $$ n $$ is not prime, then $$ 3^n - 2^n $$ is not prime.
    3. If $$ n > 1 $$, then $$ 3^n -1 $$ is not prime.
 
-*3. The proof of theorem 3 gives a method of finding a prime number different from any in a given list of prime numbers.*
+### Question 3
 
-*a. Use this method to find a prime number different from 2, 3, 5 and 7.*
+*The proof of theorem 3 gives a method of finding a prime number different from any in a given list of prime numbers*
 
-*b. Use this method to find a prime number different from 2, 5 and 11.*
+   * *Use this method to find a prime number different from 2, 3, 5 and 7.*
+   * *Use this method to find a prime number different from 2, 5 and 11.*
 
 Theorem 3 proves that there is an infinite number of primes using 2 cases.
 
@@ -105,7 +108,9 @@ The comments in [Himanshu's blog][1] brought forth an interesting related conjec
 
 The numbers of the form $$ p_{1} \times p_{2} \times ... \times p_{n} + 1 $$ are called *Euclid numbers*. The conjecture is false, as seen in the counter-example of the [first composite Euclid number][3].
 
-*4. Find 5 consecutive integers that are not prime.*
+### Question 4
+
+*Find 5 consecutive integers that are not prime.*
 
 This is a direct application of the theorem 4.
 
@@ -120,7 +125,9 @@ $$
 
 Required sequence: 722, 723, 724, 725, 726
 
-*5. Use the table in figure 1 and the discussions on p.5 to find two more perfect numbers.*
+### Question 5
+
+*Use the table in figure 1 and the discussions on p.5 to find two more perfect numbers.*
 
 This is a direct application of the theorem proven by Euler,
 
@@ -141,7 +148,9 @@ $$
 \end{align*}
 $$
 
-*6. The sequence 3, 5, 7 is a list of three prime numbers such that each pair of adjacent numbers in the list differ by 2. Are there any more such "triplet primes"?*
+### Question 6
+
+*The sequence 3, 5, 7 is a list of three prime numbers such that each pair of adjacent numbers in the list differ by 2. Are there any more such "triplet primes"?*
 
 Such a triplet can only occur among a triplet of odd numbers (since 2 is the only even prime number).
 
