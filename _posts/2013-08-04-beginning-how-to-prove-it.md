@@ -14,7 +14,9 @@ It looks like the only solutions and discussions on this book are over at [Himan
 
 Below are my notes while working through the introductory exercise:
 
-   1. This questions builds on conjecture 2,
+*1. See parts (a) and (b).*
+
+This questions builds on conjecture 2,
 
 > If n is not prime, then $$ 2^n - 1 $$ is not prime.
 
@@ -35,9 +37,7 @@ $$
 
 *b. Find an integer $$ x $$ such that $$ 1 < x < 2^{32767} - 1 $$ and $$ x $$ divides $$ 2^{32767} - 1 $$.*
 
-This is equivalent to stating that $$ 2^{32767} - 1 = xy $$, where $$ 1 < y < 2^{32767} - 1 $$.
-
-Consider $$ 2^{32767} - 1 = 2^n - 1 $$.
+This is equivalent to stating that $$ 2^{32767} - 1 = xy $$, where $$ 1 < y < 2^{32767} - 1 $$. Let $$ 2^{32767} - 1 = 2^n - 1 $$.
 
 $$
 \begin{align*}
@@ -60,6 +60,8 @@ $$
 
 *2. Make some conjecture about the values of $$ n $$ for which $$ 3^n - 1 $$ is prime or $$ 3^n - 2^n $$ is prime.*
 
+Let's make a table.
+
 n  |  $$3^n - 1$$ |  $$3^n - 2^n$$  |  n prime?  |  $$3^n -1$$ prime?  |  $$3^n - 2^n$$ prime?
 |------------------------------------------------------------------------------------------------|
 1  |  2         |     1            |      N          |      Y                 |        N
@@ -77,7 +79,9 @@ Conjectures:
    3. If $$ n > 1 $$, then $$ 3^n -1 $$ is not prime.
 
 *3. The proof of theorem 3 gives a method of finding a prime number different from any in a given list of prime numbers.*
+
 *a. Use this method to find a prime number different from 2, 3, 5 and 7.*
+
 *b. Use this method to find a prime number different from 2, 5 and 11.*
 
 Theorem 3 proves that there is an infinite number of primes using 2 cases.
@@ -89,11 +93,12 @@ Given a list of primes $$ p_{1}, ..., p_{n} $$, if $$ m = p_{1} \times p_{2} \ti
 
 So we have 2 ways of finding a prime that is not in the given list of primes:
 
-   * $$ m = p_{1} \times p_{2} \times ... \times p_{n} + 1 $$, and $$ m $$ is the prime we need, if it is prime, or
+   * $$ m = p_{1} \times p_{2} \times ... \times p_{n} + 1 $$, and $$ m $$ is the prime we need, if it is prime.
    * $$ m = p \times q $$, $$ p $$ and $$ q $$ are the primes we need.
 
-   a. $$ 2 \times 3 \times 5 \times 7 + 1 = 211 $$, 211 is a prime not in the list.
-   b. $$ 2 \times 5 \times 11 + 1 = 111 = 3 \times 37 $$, 3 and 37 are primes not in the list.
+a. $$ 2 \times 3 \times 5 \times 7 + 1 = 211 $$, 211 is a prime not in the list.
+
+b. $$ 2 \times 5 \times 11 + 1 = 111 = 3 \times 37 $$, 3 and 37 are primes not in the list.
 
 The comments in [Himanshu's blog][1] brought forth an interesting related conjecture; if $$ p_{1}, p_{2}, ... $$ are primes, then is $$ p_{1} \times p_{2} \times ... \times p_{n} + 1 $$ always prime?
 
@@ -119,6 +124,8 @@ Required sequence: 722, 723, 724, 725, 726
 This is a direct application of the theorem proven by Euler,
 
 > If $$ 2^n - 1 $$ is prime, then $$ 2^{n-1} \times (2^{n} - 1) $$ is perfect.
+
+Using this theorem, we have the following:
 
 $$
 \begin{align*}
