@@ -93,12 +93,13 @@ Given a list of primes $$ p_{1}, ..., p_{n} $$, if $$ m = p_{1} \times p_{2} \ti
 
 So we have 2 ways of finding a prime that is not in the given list of primes:
 
-   * $$ m = p_{1} \times p_{2} \times ... \times p_{n} + 1 $$, and $$ m $$ is the prime we need, if it is prime.
-   * $$ m = p \times q $$, $$ p $$ and $$ q $$ are the primes we need.
+   * $$ m = p_{1} \times p_{2} \times ... \times p_{n} + 1 $$, and $$ m $$ is prime, so it is the prime we need.
+   * $$ m = p \times q $$, and $$ m $$ is not prime, so $$ p $$ and $$ q $$ are the primes we need.
 
-a. $$ 2 \times 3 \times 5 \times 7 + 1 = 211 $$, 211 is a prime not in the list.
+Using this, we have:
 
-b. $$ 2 \times 5 \times 11 + 1 = 111 = 3 \times 37 $$, 3 and 37 are primes not in the list.
+   * $$ 2 \times 3 \times 5 \times 7 + 1 = 211 $$, 211 is a prime not in the list.
+   * $$ 2 \times 5 \times 11 + 1 = 111 = 3 \times 37 $$, 3 and 37 are primes not in the list.
 
 The comments in [Himanshu's blog][1] brought forth an interesting related conjecture; if $$ p_{1}, p_{2}, ... $$ are primes, then is $$ p_{1} \times p_{2} \times ... \times p_{n} + 1 $$ always prime?
 
@@ -130,14 +131,12 @@ Using this theorem, we have the following:
 $$
 \begin{align*}
   n &= 5\\
-  \\
 \implies 2^4 &\times (2^5 - 1)\\
     &= 16 \times 31\\
     &= 496\\
     &= 1 + 2 + 4 + 8 + 16 + 31 + 62 + 124 + 248\\
   \\
   n &= 7\\
-  \\
 \implies 2^6 &\times (2^7 - 1) = 8128
 \end{align*}
 $$
