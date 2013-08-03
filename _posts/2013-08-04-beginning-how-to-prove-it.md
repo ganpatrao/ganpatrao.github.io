@@ -20,17 +20,17 @@ Below are my notes while working through the introductory exercise:
 
 and its corresponding proof, which shows us how to construct the factors $$ x $$ and $$ y $$ of $$ 2^n - 1 $$ from the factors $$ a $$ and $$ b $$ of $$ n $$.
 
-   a. Factor $$ 2^15 - 1 = 32,767 $$ into a product of two smaller positive integers.
+*a. Factor $$ 2^15 - 1 = 32,767 $$ into a product of two smaller positive integers.*
 
 $$
-\begin{aligned}
+\begin{align}
 n = 15 \implies a = 5, b = 3\\
 \\
 x = 2^b - 1 = 31\\
 y = 1 + 2^b + 2^{2b} = 1057\\
 \\
 2^{15} - 1 = 31\times1057
-\end{aligned} 
+\end{align} 
 $$
 
    b. Find an integer $$ x $$ such that $$ 1 < x < 2^{32767} - 1 $$ and $$ x $$ divides $$ 2^{32767} - 1 $$.
