@@ -22,6 +22,25 @@ blockquote {
     margin-left: 1em;
 }
 
+
+table {
+    width: 100%;
+}
+
+th {
+    font-weight: normal;
+    font-style: italic;
+    padding: 0.5em 0;
+}
+
+td {
+    padding 0.4em 0 0 10px;
+}
+
+thead {
+    border-bottom: 1px solid #666;
+}
+
 .container {
     margin: 9em 0 3em 0;
 }
@@ -207,6 +226,10 @@ p code, ul code {
 
 .tags ul {
     list-style-type: none;
+}
+
+.MathJax_Display {
+    margin: 1.5em 0;
 }
 
 @media (max-width: 767px) {
