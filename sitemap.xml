@@ -14,7 +14,7 @@ layout: none
 
   {% for post in site.posts %}
   <url>
-    <loc>{{ site.url }}/{{ post.url }}/</loc>
+    <loc>{{ site.url }}{{ post.url }}/</loc>
     <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -24,7 +24,7 @@ layout: none
   {% for page in site.pages %}
     {% if page.layout == "page" %}
       <url>
-        <loc>{{ site.url }}/{{ page.url }}</loc>
+        <loc>{{ site.url }}{{ page.url }}</loc>
         <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
