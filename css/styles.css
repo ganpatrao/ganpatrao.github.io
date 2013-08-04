@@ -229,7 +229,7 @@ p code, ul code {
 }
 
 .MathJax_Display {
-    margin: 1.5em 0;
+    margin: 1.5em 0 !important;
 }
 
 @media (max-width: 767px) {
