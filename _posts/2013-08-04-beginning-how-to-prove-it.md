@@ -64,7 +64,7 @@ $$
 
 Let's make a table.
 
-<div class=table-wrapper>
+<div class="table-wrapper">
 n  |  $$3^n - 1$$ |  $$3^n - 2^n$$  |  n prime?  |  $$3^n -1$$ prime?  |  $$3^n - 2^n$$ prime?
 :- | :-           | :-              | :-:        | :-:                 |  :-:
 1  |  2           |     1           |      N     |      Y              |        N
