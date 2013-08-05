@@ -42,6 +42,13 @@ thead {
     border-bottom: 1px solid #666;
 }
 
+math {
+    border: 1px solid #ccc;
+    margin: 0.1em 0;
+    padding: 0.5em;
+    vertical-align: middle;
+}
+
 .container {
     margin: 9em 0 3em 0;
 }
