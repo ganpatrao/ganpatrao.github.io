@@ -1,6 +1,7 @@
 ---
 layout: page 
 title: About Me
+permalink: /about/
 ---
 
 I'm currently an engineer at Yahoo! Bangalore. I build systems to rapidly detect real-world
