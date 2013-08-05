@@ -65,7 +65,6 @@ $$
 Let's make a table.
 
 <div class=table-wrapper>
-
 n  |  $$3^n - 1$$ |  $$3^n - 2^n$$  |  n prime?  |  $$3^n -1$$ prime?  |  $$3^n - 2^n$$ prime?
 :- | :-           | :-              | :-:        | :-:                 |  :-:
 1  |  2           |     1           |      N     |      Y              |        N
@@ -75,7 +74,6 @@ n  |  $$3^n - 1$$ |  $$3^n - 2^n$$  |  n prime?  |  $$3^n -1$$ prime?  |  $$3^n 
 5  |  242         |     211         |      Y     |      N              |        Y
 6  |  728         |     665         |      N     |      N              |        N
 7  |  2186        |     2059        |      Y     |      N              |        Y
-
 </div>
 
 Conjectures:
