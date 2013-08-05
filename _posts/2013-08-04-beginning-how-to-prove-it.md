@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Beginning How To Prove It
-tags: htpi
+tags: how-to-prove-it
 ---
 
 I just finished working through the introduction of [How To Prove It][1]. The book presents a structured approach to reading and writing proofs, that is analogous to how we compose elements like `if-then` statements and `do-while` loops to write computer programs. I'm personally finding the book very promising, and highly recommend working through the introduction to get a taste of the kind of mental process this provokes.
@@ -64,6 +64,7 @@ $$
 
 Let's make a table.
 
+<div class=table-wrapper>
 n  |  $$3^n - 1$$ |  $$3^n - 2^n$$  |  n prime?  |  $$3^n -1$$ prime?  |  $$3^n - 2^n$$ prime?
 :- | :-           | :-              | :-:        | :-:                 |  :-:
 1  |  2           |     1           |      N     |      Y              |        N
@@ -73,6 +74,7 @@ n  |  $$3^n - 1$$ |  $$3^n - 2^n$$  |  n prime?  |  $$3^n -1$$ prime?  |  $$3^n 
 5  |  242         |     211         |      Y     |      N              |        Y
 6  |  728         |     665         |      N     |      N              |        N
 7  |  2186        |     2059        |      Y     |      N              |        Y
+</div>
 
 Conjectures:
 
