@@ -22,7 +22,6 @@ blockquote {
     margin-left: 1em;
 }
 
-
 table {
     display: block;
     overflow: auto;
@@ -41,6 +40,25 @@ td {
 
 thead {
     border-bottom: 1px solid #666;
+}
+
+code span {
+    white-space: nowrap;
+}
+
+pre {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: pre;
+    word-wrap: normal;
+}
+
+p code, ul code {
+    background: #eee;
+    border: 1px solid #ccc;
+    font-size: 0.8em;
+    padding: 2px 5px;
+    white-space: nowrap;
 }
 
 .container {
@@ -178,24 +196,6 @@ p.feature-image img {
     font-size: 0.8em;
     line-height: 1.1em;
     margin: 1em 0;
-}
-
-code span {
-    white-space: nowrap;
-}
-
-pre {
-    white-space: pre;
-    overflow-x: auto;
-    overflow-y: hidden;
-}
-
-p code, ul code {
-    background: #eee;
-    border: 1px solid #ccc;
-    font-size: 0.8em;
-    padding: 2px 5px;
-    white-space: nowrap;
 }
 
 .content .source {
