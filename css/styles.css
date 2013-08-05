@@ -24,8 +24,9 @@ blockquote {
 
 
 table {
-    width: 100%;
+    display: block;
     overflow: auto;
+    width: 100%;
 }
 
 th {
