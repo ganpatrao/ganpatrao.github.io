@@ -236,10 +236,6 @@ p code, ul code {
     list-style-type: none;
 }
 
-.MathJax_Display {
-    margin: 1.5em 0 !important;
-}
-
 @media (max-width: 767px) {
     .container {
         margin: 3em 0;
