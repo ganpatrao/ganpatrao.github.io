@@ -23,9 +23,11 @@ blockquote {
 }
 
 table {
-    display: block;
-    overflow: auto;
     width: 100%;
+}
+
+.table-wrapper {
+    overflow: auto;
 }
 
 th {
