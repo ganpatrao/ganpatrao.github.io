@@ -43,13 +43,6 @@ thead {
     border-bottom: 1px solid #666;
 }
 
-.math {
-    border: 1px solid #ccc !important;
-    margin: 0.1em 0 !important;
-    padding: 0.5em !important;
-    vertical-align: middle !important;
-}
-
 .container {
     margin: 9em 0 3em 0;
 }
