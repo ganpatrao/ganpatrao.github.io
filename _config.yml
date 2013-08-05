@@ -25,6 +25,6 @@ kramdown:
   parse_block_html: true
 
 # Site settings
-permalink: pretty
+permalink: /blog/:year/:month/:day/:title/
 relative_permalinks: false
 pygments: true
