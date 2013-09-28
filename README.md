@@ -1,6 +1,6 @@
 # Blog
 
-This is the third iteration of my blog. I've also written a [detailed meta-post](http://eyeshalfclosed.com/2013/07/30/building-this-blog/) on its construction.
+This is the third iteration of my blog. I've also written a [detailed meta-post](http://eyeshalfclosed.com/blog/2013/07/30/building-this-blog/) on its construction.
 
 ## Powered By
 
