@@ -89,6 +89,8 @@ trend prediction, for his
 I also led the organization of a science and math talk series,
 in a session of which I gave a [talk on random forests](https://speakerdeck.com/emaadmanzoor/reviving-failed-classifiers-with-random-forests).
 
+*[Go back to the contents index](#markdown-toc)*
+
 ### Tachyon
 {: style="float:left; margin-bottom:0;"}
 
@@ -152,6 +154,8 @@ Here is another sample of the end result of this process.
 **Figure 5:** Another sample
 {:.caption}
 
+*[Go back to the contents index](#markdown-toc)*
+
 ### Yahoo!
 {: style="float:left; margin-bottom:0;"}
 
@@ -172,6 +176,8 @@ based ranking algorithm on the detected trending queries.
 
 I was one of the 3 interns (out of 14 in total) offered a full-time position
 after the internship.
+
+*[Go back to the contents index](#markdown-toc)*
 
 ### BITS - Pilani Goa Campus
 {: style="float:left; margin-bottom:0;"}
@@ -252,6 +258,8 @@ of Technology and Science - Pilani, Goa Campus](http://www.bits-pilani.ac.in/goa
      networks in India, which are usually slow and block Flash. The
      [site is open-source](https://github.com/emaadmanzoor/openwaves2010).
 
+*[Go back to the contents index](#markdown-toc)*
+
 ### Open Source
 
    * I was funded by the University of Massachusetts and Google to spend
@@ -269,6 +277,8 @@ of Technology and Science - Pilani, Goa Campus](http://www.bits-pilani.ac.in/goa
 
    * I'm [published by O'Reilly](https://www.androidcookbook.com/Recipe.seam?recipeId=1229)
      in the Android Cookbook. I contributed a recipe on mocking GPS coordinates.
+
+*[Go back to the contents index](#markdown-toc)*
 
 ### Awards
 
@@ -290,6 +300,8 @@ of Technology and Science - Pilani, Goa Campus](http://www.bits-pilani.ac.in/goa
      and Technology of India for a project on the implementation of transparent
      and automated laboratory examination evaluation processes.
 
+*[Go back to the contents index](#markdown-toc)*
+
 ### Hacks
 
    * I [wrote some code](https://gist.github.com/emaadmanzoor/5019020) to
@@ -306,6 +318,23 @@ of Technology and Science - Pilani, Goa Campus](http://www.bits-pilani.ac.in/goa
    * I built [FindMeX](https://github.com/emaadmanzoor/findmex) as a local
      search engine for Android.
 
+   * I wrote [pyFreeSMS](https://github.com/emaadmanzoor/pyFreeSMS) to send
+     free text messages via 160by2. This is broken since 160by2 changed their
+     website layout.
+
+   * I wrote [xkcd.pl](https://github.com/emaadmanzoor/xkcd.pl) to sync
+     xkcd comics to your local disk, with tooltips!
+
+   * We plan to disrupt the restaurant ranking business with
+     [Culinary Calipers](https://github.com/emaadmanzoor/culinarycalipers).
+
+   * I wrote a [pure Python 2 implementation of linear and logistic
+     regression](https://github.com/emaadmanzoor/python-ML-minimal).
+     This is useful in programming competitions where external libraries
+     are not allowed.
+
+*[Go back to the contents index](#markdown-toc)*
+
 ### Online Courses
 
    * I took the first ever [ML-Class](http://bit.ly/mlclass-certificate) by
@@ -316,6 +345,8 @@ of Technology and Science - Pilani, Goa Campus](http://www.bits-pilani.ac.in/goa
    * I took the first ever [AI-Class](http://bit.ly/aiclass-certificate) by
      Sebastian Thrun and Peter Norvig and scored 89.9% in total. This course
      was the precursor to what is now Udacity.
+
+*[Go back to the contents index](#markdown-toc)*
 
 ### Organizational Positions
 
@@ -330,9 +361,13 @@ for anyone who appreciates that.
    * Event Manager, Geek 'N Latin, Quark 2009.
    * Event Manager, Press Corps, Waves 2009.
 
+*[Go back to the contents index](#markdown-toc)*
+
 ### Volunteer Work
 
    * I designed an [eye donation awareness video](http://www.youtube.com/watch?v=4GYvi0BYvks)
      for the Bangalore West Lions Superspecialty Eye Hospital.
    * I used to read to a blind scribe at the Abilities Home for the Blind,
      Bangalore.
+
+*[Go back to the contents index](#markdown-toc)*
