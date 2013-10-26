@@ -11,7 +11,7 @@ conducted a 3-hour [tutorial](http://in.pycon.org/2012/funnel/pyconindia2012/55-
 at PyCon India 2012. The source code and tutorial slides are available on our
 [Github repository](https://github.com/emaadmanzoor/beanstalkd-pycon2012-tutorial/).
 
-<div class="presentation">
+<div class="presentation" markdown="0">
     <script async class="speakerdeck-embed" data-id="5078db60cd52500002042a24" data-ratio="1.3333333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </div>
 
