@@ -9,17 +9,7 @@ at [KAUST](http://www.kaust.edu.sa). I am fully funded and supported by the
 KAUST Fellowship.
 
 My research this semester has primarily been on machine learning with undirected
-graphical models. The topics I'm pursuing right now are:
-
-   1. *Detecting Android malware*: While this comes across as just an
-      exhaustive search across textbook classifiers, I came in at a stage where
-      this search was already complete. My task now is to beat these
-      classifiers by designing a human-interpretable model of Android malware.
-
-   2. *Tracking dust aerosol*: Dust storms are a pretty big problem in desert
-      countries. My task this semester is to reproduce a recent approach to
-      detect and track dust aerosol across a series of satellite images. This
-      involves some interesting techniques using Markov random fields.
+graphical models.
 
 I'm also working on a couple of interesting course projects:
 
@@ -229,7 +219,7 @@ of Technology and Science - Pilani, Goa Campus](http://www.bits-pilani.ac.in/goa
      funded by Google in 2011 to help teach the semester-long Android application
      development course. We conducted laboratory sessions for the course,
      and also organized a day-long tutorial at the nearby College of Engineering
-     in Ponda, Goa.
+     in Ponda, Goa. I've shared my [courseware](http://bit.ly/emaadcourseware).
 
    * *[MIT Indian Mobile Initiative](http://globalchallenge.mit.edu/teams/view/148):*
      I was a student mentor for the initiative held at the university from July - August, 2011.
