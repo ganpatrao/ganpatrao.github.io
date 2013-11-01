@@ -1,13 +1,9 @@
 # Blog
+I 
+Hi, this blog has been forked and changed from the original blog theme by eyeshalfclosed.com
 
-This is the third iteration of my blog. I've also written a [detailed meta-post](http://eyeshalfclosed.com/blog/2013/07/30/building-this-blog/) on its construction.
+Please find the details from the original README:
 
-## Powered By
-
-This is now powered by Jekyll, and auto-built and hosted on Github pages. Previously, I've tried:
-
-   * [Wordpress.com](http://wordpress.com/): See my [old blog](http://halfclosed.wordpress.com/).
-   * [nanoc](http://nanoc.stoneship.org): See my [nanoc blog](http://emaadmanzoor.github.io/eyeshalfclosed/blog/).
 
 ## Design
 
